@@ -19,12 +19,12 @@ class Baker
 
   private
 
-  def pour_flour
-    @batter.push(Flour.new)
-  end
-  def add_egg
-    @batter.push(Egg.new)
-  end
-  def stir_batter
-  end
+    def pour_flour
+      @batter.push(Flour.new)
+    end
+    def add_egg
+      @batter.push(Egg.new)
+    end
+    def stir_batter
+    end
 end
