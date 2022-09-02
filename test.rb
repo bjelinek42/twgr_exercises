@@ -1,9 +1,2 @@
-# c = Class.new do
-#   def hello
-#     "hello"
-#   end
-# end
-
-# d = c.new
-# p d.hello
-
+a = {a: "b"}.to_s
+p a
